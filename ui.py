@@ -30,7 +30,7 @@ def iniciar_app():
     def clique(valor):
         atual = display.get()
         pos_resultado = [False]
-        if atual == "0" and valor in ["/","*"]:
+        if atual == "0" and valor in ["/","*","-","+"]:
             return 
 
         if atual[-1] in ["-","+","/","*"] and valor in ["-","+","/","*"]:
@@ -40,6 +40,7 @@ def iniciar_app():
             return 
         
         trecho_atual = atual.split("/")[-1].split("*")[-1].split("+")[-1].split("-")[-1]
+        
         if "." in trecho_atual and valor == ".":
             return
         
