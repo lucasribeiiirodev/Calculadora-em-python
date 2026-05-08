@@ -1,0 +1,6 @@
+BG = "#1e1e1e"
+DISPLAY_BG = "#2c2c2c"
+BTN_NUM = "#3a3a3a"
+BTN_OP = "#ff9500"
+BTN_C = "#ff3b30"
+BTN_TXT = "white"
